@@ -9,7 +9,7 @@ F1 "ANT_SR4W035" 0 -450 50 H V C CNN
 F2 "SwedishEmbedded:SR4W035" 0 -250 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/23/Serica-SR4W035-PS-1.0-1100557.pdf" 0 -50 50 H I C CNN
 F4 "SR4W035" 0 -350 50 H I C CNN "MPN"
-F5 "6646 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "4282 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Antennas 2.4GHz FR4 lamainate antenna" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "Mouser" 0 0 50 H I C CNN "Vendor"
@@ -25,15 +25,79 @@ X GND 6 300 100 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# AP2331TD
+#
+DEF AP2331TD U 0 40 Y Y 1 F N
+F0 "U" -10 810 50 H V C CNN
+F1 "AP2331TD" -10 810 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23" -10 810 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/115/AP2331TD-1274667.pdf" -10 810 50 H I C CNN
+F4 "AP2331TDSA-7" 0 0 50 H I C CNN "MPN"
+F5 "5511 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Power Switch ICs - Power Distribution USB Power Switch" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.306  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+T 0 -10 180 20 0 0 0 "2.7V to 5.2V" Normal 0 C C
+T 0 0 -80 20 0 0 0 "Power Switch" Normal 0 C C
+T 0 10 -110 20 0 0 0 "Reverse Protected" Normal 0 C C
+S -200 150 200 -50 0 0 0 N
+X GND 1 -300 0 100 R 50 50 1 1 P
+X OUT 2 300 100 100 L 50 50 1 1 P
+X IN 3 -300 100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BAT_Lithium_Ion_2X_Holder
+#
+DEF BAT_Lithium_Ion_2X_Holder BT 0 0 Y Y 1 F N
+F0 "BT" 250 50 50 H V L CNN
+F1 "BAT_Lithium_Ion_2X_Holder" 250 -50 50 H V L CNN
+F2 "SwedishEmbedded:BAT_LITHIUM_ION_HOLDER" 150 10 50 V I C CNN
+F3 "https://www.mouser.com/datasheet/2/215/049-743318.pdf" 150 10 50 V I C CNN
+F4 "1049" 210 -90 24 H I C CNN "MPN"
+F5 "1266 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Cylindrical Battery Contacts, Clips, Holders & Springs 18650 DUAL THM BATTERY HOLDER" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "3.90  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -270 410 280 -410 0 0 0 N
+S -88 3 -208 23 0 1 0 F
+S -60 -20 -240 -10 0 1 0 F
+S 60 20 240 10 0 1 0 F
+S 88 -3 208 -23 0 1 0 F
+P 2 0 0 0 -150 50 -150 390 N
+P 2 0 0 0 -150 390 -150 400 N
+P 2 0 0 0 150 -390 150 -400 N
+P 2 0 0 0 150 -50 150 -390 N
+P 2 0 0 0 150 430 150 160 N
+P 3 0 0 0 -150 -460 -150 -50 -150 -20 N
+P 3 0 0 0 150 190 150 50 150 60 N
+P 2 0 1 10 -190 -105 -190 -65 N
+P 2 0 1 10 -170 -85 -210 -85 N
+P 2 0 1 0 -150 20 -150 50 N
+P 2 0 1 0 150 -20 150 -50 N
+P 2 0 1 0 150 20 150 50 N
+P 2 0 1 10 170 85 210 85 N
+P 2 0 1 10 190 105 190 65 N
+X + 1 -150 -500 100 U 50 50 1 1 P
+X - 2 150 -500 100 U 50 50 1 1 P
+X + 3 150 500 100 D 50 50 1 1 P
+X - 4 -150 500 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # BC832
 #
 DEF BC832 U 0 40 Y Y 1 F N
 F0 "U" -50 1150 50 H V C CNN
 F1 "BC832" -50 1250 50 H V C CNN
-F2 "" 450 850 50 H I C CNN
+F2 "SwedishEmbedded:BC832" 450 850 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/915/BlueNor_BC832_datasheets-1360471.pdf" 50 1400 50 H I C CNN
 F4 "BC832" 0 1500 50 H I C CNN "MPN"
-F5 "611 In Stock" 0 1600 50 H I C CNN "Availability"
+F5 "561 In Stock" 0 1600 50 H I C CNN "Availability"
 F6 "Bluetooth Modules (802.15.1) Bluetooth Module" 50 1700 50 H I C CNN "Description"
 F7 "New Product" 0 1800 50 H I C CNN "LifeCycle"
 F8 "Mouser" 0 1900 50 H I C CNN "Vendor"
@@ -63,19 +127,19 @@ X P06 A4 1050 700 100 L 50 50 0 0 B
 X P08 A5 1050 600 100 L 50 50 0 0 B
 X P25 B1 1050 500 100 L 50 50 0 0 B
 X P29 B2 1050 400 100 L 50 50 0 0 B
-X P31/DCC B3 1050 300 100 L 50 50 0 0 B
-X P05 B4 1050 200 100 L 50 50 0 0 B
-X P07 B5 1050 100 100 L 50 50 0 0 B
-X P24 C1 1050 0 100 L 50 50 0 0 B
-X P22 C2 1050 -100 100 L 50 50 0 0 B
-X P30/DEC4 C3 1050 -200 100 L 50 50 0 0 B
-X P15 C4 1050 -300 100 L 50 50 0 0 B
-X P09 C5 1050 -400 100 L 50 50 0 0 B
-X P23 D1 1050 -500 100 L 50 50 0 0 B
-X P19 D2 1050 -600 100 L 50 50 0 0 B
-X P16 D3 1050 -700 100 L 50 50 0 0 B
-X P14 D4 1050 -800 100 L 50 50 0 0 B
-X P10 D5 1050 -900 100 L 50 50 0 0 B
+X P31/DCC B3 1050 -1150 100 L 50 50 0 0 B
+X P05 B4 1050 300 100 L 50 50 0 0 B
+X P07 B5 1050 200 100 L 50 50 0 0 B
+X P24 C1 1050 100 100 L 50 50 0 0 B
+X P22 C2 1050 0 100 L 50 50 0 0 B
+X P30/DEC4 C3 1050 -1050 100 L 50 50 0 0 B
+X P15 C4 1050 -100 100 L 50 50 0 0 B
+X P09 C5 1050 -200 100 L 50 50 0 0 B
+X P23 D1 1050 -300 100 L 50 50 0 0 B
+X P19 D2 1050 -400 100 L 50 50 0 0 B
+X P16 D3 1050 -500 100 L 50 50 0 0 B
+X P14 D4 1050 -600 100 L 50 50 0 0 B
+X P10 D5 1050 -700 100 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
@@ -87,7 +151,7 @@ F1 "BZA408B" 0 -400 50 H V C CNN
 F2 "" 0 -400 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/916/BZA408B-1320202.pdf" 0 -400 50 H I C CNN
 F4 "BZA408B_115" 0 -400 50 H I C CNN "MPN"
-F5 "28497 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "26377 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes DIODE ARRAY TAPE-7" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "Mouser" 0 0 50 H I C CNN "Vendor"
@@ -143,7 +207,7 @@ F1 "CAPP_100uF_25V_6357" 25 -100 50 H I L CNN
 F2 "SwedishEmbedded:CP_Elec_6.3x5.7" 38 -150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/231/151002385281-1222337.pdf" 25 100 50 H I C CNN
 F4 "VZS101M1ETR-0606" 0 0 39 H I C CNN "MPN"
-F5 "23786 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "21423 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Aluminium Electrolytic Capacitors - SMD 25 Volts 100uF 20% 6.3X5.7" 0 0 50 H I C CNN "Description"
 F7 "Mouser" 0 0 50 H I C CNN "Vendor"
 F8 "OK" 0 0 50 H I C CNN "LifeCycle"
@@ -170,7 +234,7 @@ F1 "CAPP_220uF_63V_10x15_THT" 25 -100 50 H I L CNN
 F2 "SwedishEmbedded:CP_Radial_D10.0mm_P5.00mm" 38 -150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" 25 100 50 H I C CNN
 F4 "ESK227M063AH2AA" 0 0 39 H I C CNN "MPN"
-F5 "2124 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "2034 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Aluminium Electrolytic Capacitors - Radial Leaded 63V 220uF 85C 2k Hour Radial" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "0.405  EUR" 0 0 50 H I C CNN "Price"
@@ -197,7 +261,7 @@ F1 "CAP_0.022uF_100V_0603" 10 -80 50 H I L CNN
 F2 "SwedishEmbedded:C_0603_1608Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" 10 70 50 H I C CNN
 F4 "C0603C223K1RACTU" 0 -350 50 H I C CNN "MPN"
-F5 "316678 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "295214 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V .022uF 0603 X7R 10%" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "0.09  EUR" 0 0 50 H I C CNN "Price"
@@ -222,7 +286,7 @@ F1 "CAP_0.47uF_10V_0402" 10 -80 50 H I L CNN
 F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN
 F4 "CC0402KRX5R6BB474" 450 250 50 H I C CNN "MPN"
-F5 "347626 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "290537 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 470nF 10V X5R 10%" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "0.09  EUR" 0 0 50 H I C CNN "Price"
@@ -232,6 +296,31 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 0 0 0 20 0 0 0 "0.47uF 10V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_0.47uF_25V_0603
+#
+DEF ~CAP_0.47uF_25V_0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_0.47uF_25V_0603" 10 -80 50 H I L CNN
+F2 "SwedishEmbedded:C_0603_1608Metric" 450 150 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" 10 70 50 H I C CNN
+F4 "UMK107B7474KA-TR" 450 250 50 H I C CNN "MPN"
+F5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47uF 50V X7R +/-10% 0603 Gen Purp" 0 0 50 H I C CNN "Description"
+F6 "OK" 0 0 50 H I C CNN "LifeCycle"
+F7 "0.09  EUR" 0 0 50 H I C CNN "Price"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "443958 In Stock" 0 0 50 H I C CNN "Availability"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "0.47uF 25V" Normal 0 C C
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
@@ -282,6 +371,25 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 0 0 0 20 0 0 0 "0.8pF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_0402
+#
+DEF ~CAP_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_0402" 10 -80 50 H I L CNN
+F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 0402 Normal 0 C C
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
@@ -395,13 +503,14 @@ DEF ~CAP_100nF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "CAP_100nF_50V_0402" 10 -80 50 H I L CNN
 F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
 F4 "GRM155R61H104ME14D" 450 250 50 H I C CNN "MPN"
 F5 "50653 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X5R 20%" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "0.09  EUR" 0 0 50 H I C CNN "Price"
 F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+F10 "1" 0 0 50 H V C CNN "Valid"
 $FPLIST
  *:C_*
 $ENDFPLIST
@@ -470,13 +579,14 @@ DEF ~CAP_10pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "CAP_10pF_50V_0402" 10 -80 50 H I L CNN
 F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/885012005055-553907.pdf" 10 70 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
 F4 "885012005055" 450 250 50 H I C CNN "MPN"
 F5 "81111 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 10pF 0402 5% 50V MLCC" 0 0 50 H I C CNN "Description"
 F7 "Mouser" 0 0 50 H I C CNN "Vendor"
 F8 "OK" 0 0 50 H I C CNN "LifeCycle"
 F9 "0.07  EUR" 0 0 50 H I C CNN "Price"
+F10 "1" 0 0 50 H V C CNN "Valid"
 $FPLIST
  *:C_*
 $ENDFPLIST
@@ -570,13 +680,14 @@ DEF ~CAP_10uF_35V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "CAP_10uF_35V_0603" 10 -280 50 H I L CNN
 F2 "SwedishEmbedded:C_0603_1608Metric" 450 -50 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 -130 50 H I C CNN
+F3 "" 10 -130 50 H I C CNN
 F4 "GRM188R6YA106MA73D" 0 -350 50 H I C CNN "MPN"
 F5 "199187 In Stock" 0 -200 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp" 0 -200 50 H I C CNN "Description"
 F7 "Mouser" 50 -100 50 H I C CNN "Vendor"
 F8 "OK" 0 -150 50 H I C CNN "LifeCycle"
 F9 "0.405  EUR" 0 -200 50 H I C CNN "Price"
+F10 "1" 0 0 50 H V C CNN "Valid"
 $FPLIST
  *:C_*
 $ENDFPLIST
@@ -845,13 +956,14 @@ DEF ~CAP_22uF_10V_0805 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "CAP_22uF_10V_0805" 10 -80 50 H I L CNN
 F2 "SwedishEmbedded:C_0805_2012Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" 10 70 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
 F4 "LMK212BBJ226MG-T" 450 250 50 H I C CNN "MPN"
 F5 "260041 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "0.252  EUR" 0 0 50 H I C CNN "Price"
 F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+F10 "1" 0 0 50 H V C CNN "Valid"
 $FPLIST
  *:C_*
 $ENDFPLIST
@@ -907,6 +1019,31 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 0 0 0 20 0 0 0 "39pF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_47nF_25V_0402
+#
+DEF ~CAP_47nF_25V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_47nF_25V_0402" 10 -80 50 H I L CNN
+F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN
+F4 "GRM155R71E473KA88D" 0 -350 50 H I C CNN "MPN"
+F5 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.047uF 25volts X7R 10%" 0 0 50 H I C CNN "Description"
+F6 "OK" 0 0 50 H I C CNN "LifeCycle"
+F7 "0.09  EUR" 0 0 50 H I C CNN "Price"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "1314338 In Stock" 0 0 50 H I C CNN "Availability"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "47nF 25V" Normal 0 C C
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
@@ -1064,6 +1201,58 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONN_10P_IDC_SOCKET
+#
+DEF ~CONN_10P_IDC_SOCKET P 0 40 Y Y 1 F N
+F0 "P" -50 600 50 H V C CNN
+F1 "CONN_10P_IDC_SOCKET" -100 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_IDC_10P_KINKED_1.27mm" -300 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/418/NG_CD_2178710_A_pdf_c-2178710_drw-664499.pdf" -200 900 50 H I C CNN
+F4 "1-2178710-0" -100 900 50 H I C CNN "MPN"
+F5 "Headers & Wire Housings FOB, THT, 10P" -200 900 50 H I C CNN "Description"
+F6 "0.495  EUR" 100 900 50 H I C CNN "Price"
+F7 "Mouser" 50 650 50 H I C CNN "Vendor"
+F8 "9428 In Stock" 0 0 50 H I C CNN "Availability"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+T 900 -40 0 20 0 0 0 "Matching plug: 1-2178712-0" Normal 0 C C
+S -150 550 0 -550 0 1 0 N
+X ~ 10 -250 -450 100 R 50 50 0 0 U
+X ~ 5 -250 50 100 R 50 50 0 0 U
+X ~ 6 -250 -50 100 R 50 50 0 0 U
+X ~ 7 -250 -150 100 R 50 50 0 0 U
+X ~ 8 -250 -250 100 R 50 50 0 0 U
+X ~ 9 -250 -350 100 R 50 50 0 0 U
+X ~ 1 -250 450 100 R 50 50 1 1 U
+X ~ 2 -250 350 100 R 50 50 1 1 U
+X ~ 3 -250 250 100 R 50 50 1 1 U
+X ~ 4 -250 150 100 R 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+# CONN_3CH_LED
+#
+DEF ~CONN_3CH_LED P 0 40 Y Y 1 F N
+F0 "P" -50 200 50 H V C CNN
+F1 "CONN_3CH_LED" -100 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_RIBBON_KINKED_4P" -300 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/418/NG_CD_2178710_A_pdf_c-2178710_drw-622888.pdf" -200 900 50 H I C CNN
+F4 "2178710-4" -100 900 50 H I C CNN "MPN"
+F5 "Headers & Wire Housings FOB, THT, 4P" -200 900 50 H I C CNN "Description"
+F6 "OK" 0 900 50 H I C CNN "LifeCycle"
+F7 "0.261  EUR" 100 900 50 H I C CNN "Price"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "15858 In Stock" 0 0 50 H I C CNN "Availability"
+DRAW
+T 900 70 -50 20 0 0 0 "LED OUT" Normal 0 C C
+S -150 150 100 -250 0 1 0 N
+X VCC 1 -250 100 100 R 50 50 1 1 W
+X R 2 -250 0 100 R 50 50 1 1 I
+X G 3 -250 -100 100 R 50 50 1 1 I
+X B 4 -250 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # CONN_AN_4X
 #
 DEF ~CONN_AN_4X P 0 40 Y Y 1 F N
@@ -1105,6 +1294,34 @@ DRAW
 S -150 100 100 -100 0 1 0 N
 X AN 1 -250 50 100 R 50 50 1 1 I
 X GND 2 -250 -50 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# CONN_BAT_LI_ION
+#
+DEF CONN_BAT_LI_ION BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "CONN_BAT_LI_ION" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+T 0 -100 -10 20 0 0 0 3.7V Normal 0 C C
+S -80 -55 80 -65 0 1 0 F
+S -80 70 80 60 0 1 0 F
+S -52 -78 50 -98 0 1 0 F
+S -52 47 50 27 0 1 0 F
+P 3 0 0 0 -100 -200 0 -200 0 -100 N
+P 3 0 0 0 0 100 0 200 -100 200 N
+P 2 0 1 0 0 -60 0 -50 N
+P 2 0 1 0 0 -40 0 -30 N
+P 2 0 1 0 0 -20 0 -10 N
+P 2 0 1 0 0 0 0 10 N
+P 2 0 1 0 0 20 0 30 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 10 105 50 105 N
+P 2 0 1 10 30 125 30 85 N
+X + 1 -200 200 100 R 50 50 1 1 P
+X - 2 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1239,6 +1456,34 @@ X BOOT 9 -200 -450 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONN_DEBUG_F103_SMD
+#
+DEF ~CONN_DEBUG_F103_SMD P 0 40 Y Y 1 F N
+F0 "P" 100 500 50 H V C CNN
+F1 "CONN_DEBUG_F103_SMD" 100 -600 50 H I C CNN
+F2 "SwedishEmbedded:CONN_DEBUG_F103_SMD" 0 100 50 H I C CNN
+F3 "" 0 100 50 H V C CNN
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -50 450 250 -550 0 1 0 N
+X VCC 1 -200 350 150 R 50 50 1 1 P
+X GND 2 -200 250 150 R 50 50 1 1 P
+X TX 3 -200 150 150 R 50 50 1 1 P
+X RX 4 -200 50 150 R 50 50 1 1 P
+X RST 5 -200 -50 150 R 50 50 1 1 P
+X SWDIO 6 -200 -150 150 R 50 50 1 1 P
+X SWCLK 7 -200 -250 150 R 50 50 1 1 P
+X SWO 8 -200 -350 150 R 50 50 1 1 P
+X BOOT 9 -200 -450 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CONN_ENCODER
 #
 DEF ~CONN_ENCODER P 0 40 Y Y 1 F N
@@ -1362,6 +1607,76 @@ X 5V 1 -250 150 100 R 50 50 1 1 W
 X GND 2 -250 50 100 R 50 50 1 1 W
 X X 3 -250 -50 100 R 50 50 1 1 O
 X Y 4 -250 -150 100 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# CONN_JST_GH_02_V
+#
+DEF ~CONN_JST_GH_02_V P? 0 40 Y Y 1 F N
+F0 "P?" -40 150 50 H V C CNN
+F1 "CONN_JST_GH_02_V" -100 900 50 H I C CNN
+F2 "SwedishEmbedded:BM02B-GHS-TBT" -300 900 50 H I C CNN
+F3 "" -200 900 50 H I C CNN
+F4 "BM02B-GHMG-TBT" -100 900 50 H I C CNN "MPN"
+F5 "1582 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" -200 900 50 H I C CNN "Description"
+F7 "OK" 0 900 50 H I C CNN "LifeCycle"
+F8 "0.38  EUR" 100 900 50 H I C CNN "Price"
+DRAW
+S -100 100 20 -100 0 1 0 N
+S -80 -30 -60 30 0 1 0 N
+P 10 0 1 0 -70 80 -70 50 -60 50 -50 50 -50 -50 -70 -50 -70 -80 0 -80 0 80 -70 80 N
+X ~ 1 -200 50 100 R 50 50 1 1 P
+X ~ 2 -200 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_JST_RS422
+#
+DEF ~CONN_JST_RS422 P? 0 40 Y Y 1 F N
+F0 "P?" -60 300 50 H V C CNN
+F1 "CONN_JST_RS422" -100 900 50 H I C CNN
+F2 "SwedishEmbedded:BM05B-GHS-TBT" -300 900 50 H I C CNN
+F3 "" -200 900 50 H I C CNN
+F4 "BM05B-GHMG-TBT" -100 900 50 H I C CNN "MPN"
+F5 "1582 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" -200 900 50 H I C CNN "Description"
+F7 "OK" 0 900 50 H I C CNN "LifeCycle"
+F8 "0.38  EUR" 100 900 50 H I C CNN "Price"
+DRAW
+S -150 250 170 -250 0 1 0 N
+S 70 -180 90 180 0 1 0 N
+P 10 0 1 0 80 230 80 200 90 200 100 200 100 -200 80 -200 80 -230 150 -230 150 230 80 230 N
+X TXP 1 -250 200 100 R 50 50 1 1 I
+X TXN 2 -250 100 100 R 50 50 1 1 I
+X RXP 3 -250 0 100 R 50 50 1 1 O
+X RXN 4 -250 -100 100 R 50 50 1 1 O
+X GND 5 -250 -200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_JST_RS422_PWR
+#
+DEF ~CONN_JST_RS422_PWR P? 0 40 Y Y 1 F N
+F0 "P?" -60 300 50 H V C CNN
+F1 "CONN_JST_RS422_PWR" -100 900 50 H I C CNN
+F2 "SwedishEmbedded:BM06B-GHS-TBT_RS422_PWR" -300 900 50 H I C CNN
+F3 "" -200 900 50 H I C CNN
+F4 "BM05B-GHMG-TBT" -100 900 50 H I C CNN "MPN"
+F5 "1582 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" -200 900 50 H I C CNN "Description"
+F7 "OK" 0 900 50 H I C CNN "LifeCycle"
+F8 "0.38  EUR" 100 900 50 H I C CNN "Price"
+DRAW
+S -150 250 170 -350 0 1 0 N
+S 70 -260 90 180 0 1 0 N
+P 10 0 1 0 80 230 80 200 90 200 100 200 100 -280 80 -280 80 -320 150 -320 150 230 80 230 N
+X TXP 1 -250 200 100 R 50 50 1 1 I
+X TXN 2 -250 100 100 R 50 50 1 1 I
+X RXP 3 -250 0 100 R 50 50 1 1 O
+X RXN 4 -250 -100 100 R 50 50 1 1 O
+X GND 5 -250 -200 100 R 50 50 1 1 P
+X PWR 6 -250 -300 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
@@ -1782,6 +2097,35 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONN_SMARTLIGHT
+#
+DEF ~CONN_SMARTLIGHT P 0 40 Y Y 1 F N
+F0 "P" -50 600 50 H V C CNN
+F1 "CONN_SMARTLIGHT" -100 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_IDC_10P_KINKED_1.27mm" -300 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/418/NG_CD_2178710_A_pdf_c-2178710_drw-664499.pdf" -200 900 50 H I C CNN
+F4 "1-2178710-0" -100 900 50 H I C CNN "MPN"
+F5 "Headers & Wire Housings FOB, THT, 10P" -200 900 50 H I C CNN "Description"
+F6 "0.495  EUR" 100 900 50 H I C CNN "Price"
+F7 "Mouser" 50 650 50 H I C CNN "Vendor"
+F8 "9428 In Stock" 0 0 50 H I C CNN "Availability"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+T 900 -50 20 20 0 0 0 "Matching plug: 1-2178712-0" Normal 0 C C
+S -150 550 0 -550 0 1 0 N
+X ~ 10 -250 -450 100 R 50 50 0 0 P
+X ~ 5 -250 50 100 R 50 50 0 0 P
+X ~ 6 -250 -50 100 R 50 50 0 0 P
+X ~ 7 -250 -150 100 R 50 50 0 0 P
+X ~ 8 -250 -250 100 R 50 50 0 0 P
+X ~ 9 -250 -350 100 R 50 50 0 0 P
+X ~ 1 -250 450 100 R 50 50 1 1 P
+X ~ 2 -250 350 100 R 50 50 1 1 P
+X ~ 3 -250 250 100 R 50 50 1 1 P
+X ~ 4 -250 150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CONN_SWITCH
 #
 DEF ~CONN_SWITCH P 0 40 Y Y 1 F N
@@ -1883,6 +2227,47 @@ X POWER 2 -200 -100 150 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# Conn_ARM_JTAG_SWD_10
+#
+DEF ~Conn_ARM_JTAG_SWD_10 J 0 40 Y Y 1 F N
+F0 "J" -100 650 50 H V R CNN
+F1 "Conn_ARM_JTAG_SWD_10" -100 550 50 H I R BNN
+F2 "SwedishEmbedded:PinHeader_2x05_P1.27mm_Vertical_SMD" 50 -550 50 H I L TNN
+F3 "https://www.mouser.com/datasheet/2/181/M50-360R-1064294.pdf" -350 -1250 50 V I C CNN
+F4 "M50-3600542R" 0 0 50 H I C CNN "MPN"
+F5 "17411 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Headers & Wire Housings ArcherM50 1.27mmPitc DIL Vert Pin Head" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "1.19  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ Pin?Header*
+ *IDC*
+ Conn*:*_2x*
+$ENDFPLIST
+DRAW
+S -400 500 400 -500 0 1 10 f
+S -110 -500 -90 -460 0 1 0 N
+S -10 -500 10 -460 0 1 0 N
+S -10 500 10 460 0 1 0 N
+S 360 90 400 110 0 1 0 N
+S 400 -110 360 -90 0 1 0 N
+S 400 -10 360 10 0 1 0 N
+S 400 310 360 290 0 1 0 N
+S 360 -210 400 -190 1 1 0 N
+X VCC 1 0 600 100 D 50 50 1 1 W
+X ~RESET~ 10 500 300 100 L 50 50 1 1 C
+X SWDIO/TMS 2 500 0 100 L 50 50 1 1 B
+X GND 3 0 -600 100 U 50 50 1 1 W
+X SWDCLK/TCK 4 500 100 100 L 50 50 1 1 O
+X GND 5 0 -600 100 U 50 50 1 1 P N
+X SWO/TDO 6 500 -100 100 L 50 50 1 1 I
+X KEY 7 -400 0 100 R 50 50 1 1 N N
+X NC/TDI 8 500 -200 100 L 50 50 1 1 O
+X GNDDetect 9 -100 -600 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # D_1N4148
 #
 DEF ~D_1N4148 D 0 10 N N 1 F N
@@ -1918,14 +2303,15 @@ ENDDEF
 DEF ~D_B240A D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "D_B240A" -150 -80 50 H I L CNN
-F2 "SwedishEmbedded:D_SMA" 100 -150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/115/B220AEBE-B245AEBE-1115122.pdf" 0 0 50 V I C CNN
+F2 "Diode_SMD:D_SMA" 100 -150 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
 F4 "B240AE-13" 0 -250 50 H I C CNN "MPN"
 F5 "7299 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Schottky Diodes & Rectifiers Schottky Rectifier" 0 0 50 H I C CNN "Description"
 F7 "Mouser" 0 0 50 H I C CNN "Vendor"
 F8 "OK" 0 0 50 H I C CNN "LifeCycle"
 F9 "0.333  EUR" 0 0 50 H I C CNN "Price"
+F10 "1" 0 0 50 H V C CNN "Valid"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -1998,6 +2384,33 @@ P 2 0 1 0 -50 50 -25 50 N
 P 2 0 1 0 -25 50 -25 40 N
 P 2 0 1 0 0 0 -100 0 N
 P 4 0 1 0 25 -50 25 50 -50 0 25 -50 F
+X ~ 1 -100 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_BAT54J
+#
+DEF ~D_BAT54J D 0 40 N Y 1 F N
+F0 "D" -50 100 50 H V L CNN
+F1 "D_BAT54J" -150 -450 50 H I L CNN
+F2 "Diode_SMD:D_SOD-123" -175 -425 50 H I L CNN
+F3 "" -370 -550 50 H I C CNN
+F4 "BAT54GWJ" -100 -450 50 H I C CNN "MPN"
+F5 "37845 In Stock" -100 -500 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers BL Bipolar Discretes" -250 -550 50 H I C CNN "Description"
+F7 "OK" -50 -500 50 H I C CNN "LifeCycle"
+F8 "0.126  EUR" -50 -500 50 H I C CNN "Price"
+F9 "Mouser" 180 -70 50 H I C CNN "Vendor"
+F10 "1" 0 0 50 H V C CNN "Valid"
+$FPLIST
+ *:SOT*23*
+$ENDFPLIST
+DRAW
+T 0 0 -80 20 0 0 0 BAT54J Normal 0 C C
+P 3 0 0 0 -30 0 -30 -40 -50 -40 N
+P 3 0 0 0 -30 0 -30 40 -10 40 N
+P 4 0 0 0 -30 0 30 40 30 -40 -30 0 F
 X ~ 1 -100 0 100 R 50 50 1 1 P
 X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -2510,15 +2923,15 @@ ENDDEF
 #
 DEF ~D_TVS_5V5_0402 D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_TVS_5V5_0402" -150 -80 50 H I L CNN
-F2 "SwedishEmbedded:D_0402_1005Metric" 100 -150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/40/AVX-GiGuard-1101674.pdf" 0 0 50 V I C CNN
-F4 "GG0402052R542P" 0 -250 50 H I C CNN "MPN"
-F5 "134714 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "ESD Suppressors / TVS Diodes SMP Diode 0402, 5vdc 2.5 pf,<12v clamp@1a" 0 0 50 H I C CNN "Description"
-F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "0.279  EUR" 0 0 50 H I C CNN "Price"
-F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+F1 "D_TVS_5V5_0402" -270 -340 50 H I L CNN
+F2 "Diode_SMD:D_0402_1005Metric" -20 -410 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "GG0402052R542P" -120 -510 50 H I C CNN "MPN"
+F5 "134714 In Stock" -30 -230 50 H I C CNN "Availability"
+F6 "ESD Suppressors / TVS Diodes SMP Diode 0402, 5vdc 2.5 pf,<12v clamp@1a" -120 -260 50 H I C CNN "Description"
+F7 "OK" -20 -300 50 H I C CNN "LifeCycle"
+F8 "0.279  EUR" -30 -230 50 H I C CNN "Price"
+F9 "Mouser" 0 -290 50 H I C CNN "Vendor"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -2527,10 +2940,13 @@ $FPLIST
  *:D_*
 $ENDFPLIST
 DRAW
-T 0 0 -100 20 0 0 0 "TVS 5.5V" Normal 0 C C
-P 2 0 1 0 -30 -40 -30 40 N
+T 0 0 -70 20 0 0 0 "TVS 5.5V" Normal 0 C C
+P 2 0 0 0 0 -30 -10 -40 N
+P 2 0 0 0 0 30 10 40 N
+P 4 0 0 0 0 0 -60 40 -60 -40 0 0 F
 P 2 0 1 0 -30 0 30 0 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 2 0 1 0 0 -30 0 30 N
+P 4 0 1 0 60 -40 0 0 60 40 60 -40 F
 X K 1 -100 0 70 R 50 50 1 1 P
 X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
@@ -2791,8 +3207,8 @@ ENDDEF
 DEF IC_ACT4088 U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
 F1 "IC_ACT4088" 0 250 50 H V C CNN
-F2 "SwedishEmbedded:SOT-23-6" 50 450 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/412/ACT4088_Datasheet-1627529.pdf" 0 250 50 H I C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-6" 50 450 50 H I C CNN
+F3 "" 0 250 50 H I C CNN
 F4 "ACT4088US-T" 0 -250 50 H I C CNN "MPN"
 F5 "24423 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Switching Voltage Regulators 28V, 1.2A, 1.4MHz Step-Down Converter" 0 0 50 H I C CNN "Description"
@@ -2803,12 +3219,12 @@ F10 "OK" 0 0 50 H I C CNN "LifeCycle"
 DRAW
 T 0 0 -150 20 0 0 0 "28V 1.2A" Normal 0 C C
 S -300 200 300 -200 0 1 0 N
-X SW 1 -500 100 200 R 50 50 1 1 O
-X IN 2 -500 0 200 R 50 50 1 1 W
-X EN 3 -500 -100 200 R 50 50 1 1 I
-X FB 4 500 -100 200 L 50 50 1 1 I
-X GND 5 500 0 200 L 50 50 1 1 W
-X BST 6 500 100 200 L 50 50 1 1 P
+X SW 1 -400 100 100 R 50 50 1 1 O
+X IN 2 -400 0 100 R 50 50 1 1 W
+X EN 3 -400 -100 100 R 50 50 1 1 I
+X FB 4 400 0 100 L 50 50 1 1 I
+X GND 5 400 -100 100 L 50 50 1 1 W
+X BST 6 400 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -2897,6 +3313,30 @@ X CI 5 -400 150 100 R 50 50 1 1 P
 X VCC 6 -400 50 100 R 50 50 1 1 W
 X ISENS 7 -400 -50 100 R 50 50 1 1 P
 X DC 8 -400 -150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IC_BCR420UW6Q-7
+#
+DEF IC_BCR420UW6Q-7 U 0 40 Y Y 1 F N
+F0 "U" 0 800 50 H V C CNN
+F1 "IC_BCR420UW6Q-7" 0 800 50 H V C CNN
+F2 "SwedishEmbedded:SOT26-SC74R" 0 800 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/115/BCR420UW6Q_BCR421UW6Q-959585.pdf" 0 800 50 H I C CNN
+F4 "BCR420UW6Q-7" 0 800 50 H I C CNN "MPN"
+F5 "57000 On Order" 0 0 50 H I C CNN "Availability"
+F6 "LED Lighting Drivers Transistor LED Driver" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.405  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -300 350 300 -350 0 0 0 N
+X EN 1 -200 450 100 D 50 50 0 0 I
+X OUT 2 0 450 100 D 50 50 0 0 C
+X OUT 3 100 450 100 D 50 50 0 0 C
+X GND 4 400 -250 100 L 50 50 0 0 W
+X OUT 5 200 450 100 D 50 50 0 0 C
+X Rext 6 400 50 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -3208,6 +3648,32 @@ X CLK 6 -650 -550 100 R 50 50 1 1 I
 X INT 7 -650 -250 100 R 50 50 1 1 O
 X SDA 8 -650 50 100 R 50 50 1 1 B
 X SCL 9 -650 -50 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IC_LTC2865
+#
+DEF IC_LTC2865 U 0 40 Y Y 1 F N
+F0 "U" 0 500 50 H V C CNN
+F1 "IC_LTC2865" 0 400 50 H V C CNN
+F2 "Package_DFN_QFN:DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm" -50 500 50 H I C CNN
+F3 "" -50 500 50 H I C CNN
+F4 "LTC2865HDE#TRPBF" 0 0 50 H I C CNN "MPN"
+DRAW
+S -300 350 300 -350 0 1 0 N
+X B(N) 10 400 50 100 L 50 50 0 0 I
+X A(P) 11 400 150 100 L 50 50 0 0 I
+X VCC 12 400 250 100 L 50 50 0 0 W
+X PAD 13 0 -450 100 U 50 50 0 0 P
+X DI 4 -400 -50 100 R 50 50 0 0 I
+X VL 5 -400 -150 100 R 50 50 0 0 W
+X GND 6 -400 -250 100 R 50 50 0 0 P
+X ~SLO 7 400 -250 100 L 50 50 0 0 I
+X Y(P) 8 400 -150 100 L 50 50 0 0 I
+X Z(N) 9 400 -50 100 L 50 50 0 0 I
+X RO 1 -400 250 100 R 50 50 1 1 O
+X ~RE 2 -400 150 100 R 50 50 1 1 I
+X DE 3 -400 50 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -3663,11 +4129,11 @@ ENDDEF
 #
 # IC_STM32F103CBU6
 #
-DEF IC_STM32F103CBU6 U 0 40 Y Y 1 L N
+DEF IC_STM32F103CBU6 U 0 40 Y Y 1 F N
 F0 "U" -2800 1725 50 H V L BNN
 F1 "IC_STM32F103CBU6" 2800 1725 50 H V R BNN
-F2 "SwedishEmbedded:QFN50P69X69X50-49N" 2800 1675 50 H I R TNN
-F3 "https://www.mouser.com/datasheet/2/389/stm32f103c8-956229.pdf" 0 0 50 H I C CNN
+F2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" 2800 1675 50 H I R TNN
+F3 "" 0 0 50 H I C CNN
 F4 "STM32F103CBU6" 0 0 50 H I C CNN "MPN"
 F5 "929 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ARM Microcontrollers - MCU 32-Bit ARM Cortex 128kb Performance" 0 0 50 H I C CNN "Description"
@@ -3723,9 +4189,9 @@ X VDD 48 0 1800 100 D 50 50 1 1 W
 X VSS 49 100 -1800 100 U 50 50 1 1 W
 X PD0/RCC_OSC_IN 5 -2900 800 100 R 50 50 1 1 I
 X PD1/RCC_OSC_OUT 6 -2900 700 100 R 50 50 1 1 I
-X NRST 7 -2900 1400 100 R 50 50 1 1 I
+X ~RESET 7 -2900 1400 100 R 50 50 1 1 I
 X VSSA 8 200 -1800 100 U 50 50 1 1 W
-X VDDA 9 100 1800 100 D 50 50 1 1 W
+X VDDA 9 700 1800 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -4710,6 +5176,68 @@ X AVSS_VCSEL 9 500 -50 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# IND_10uH_0603
+#
+DEF ~IND_10uH_0603 L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "IND_10uH_0603" 30 -40 50 H I L CNN
+F2 "Inductor_SMD:L_0603_1608Metric" -70 -60 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/400/nductor_commercial_decoupling_mlz1608_en-837720.pdf" 0 0 50 H I C CNN
+F4 "MLZ1608E100MT" 130 140 50 H I C CNN "MPN"
+F5 "Fixed Inductors 0603 10uH 20%" 0 0 50 H I C CNN "Description"
+F6 "Mouser" 0 0 50 H I C CNN "Vendor"
+F7 "https://www.mouser.com/datasheet/2/400/nductor_commercial_decoupling_mlz2012_en-918301.pdf" 0 0 50 H I C CNN "Datasheet"
+F8 "0.117  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+F10 "24777 In Stock" 0 0 50 H I C CNN "Availability"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -30 0 20 0 0 0 "10uH 250mA" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IND_15nH_0402
+#
+DEF ~IND_15nH_0402 L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "IND_15nH_0402" 30 -40 50 H I L CNN
+F2 "Inductor_SMD:L_0402_1005Metric" -50 -50 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/281/o05e-522697.pdf" 0 0 50 H I C CNN
+F4 "LQG15HN15NJ02D" 130 140 50 H I C CNN "MPN"
+F5 "Mouser" 0 0 50 H I C CNN "Vendor"
+F6 "https://www.mouser.com/datasheet/2/400/nductor_commercial_decoupling_mlz2012_en-918301.pdf" 0 0 50 H I C CNN "Datasheet"
+F7 "0.09  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "75413 In Stock" 0 0 50 H I C CNN "Availability"
+F10 "Fixed Inductors 0402 15nH +/-5% Chip Inductor" 0 0 50 H I C CNN "Description"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -30 0 20 0 0 0 "15nH 300mA" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # IND_15uH_0805
 #
 DEF ~IND_15uH_0805 L 0 10 N N 1 F N
@@ -4809,13 +5337,14 @@ DEF ~IND_4.7uH_2.63A L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
 F1 "IND_4.7uH_2.63A" 30 -40 50 H I L CNN
 F2 "SwedishEmbedded:L_SRR4528A" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/rr4528a-1391584.pdf" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 F4 "SRR4528A-4R7Y" 130 140 50 H I C CNN "MPN"
 F5 "460 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 4.7uH 30% 2.63A" 0 0 50 H I C CNN "Description"
 F7 "0.603  EUR" 0 0 50 H I C CNN "Price"
 F8 "New Product" 0 0 50 H I C CNN "LifeCycle"
 F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+F10 "1" 0 0 50 H V C CNN "Valid"
 $FPLIST
  Choke_*
  *Coil*
@@ -4895,6 +5424,46 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# IND_NFC_CONN
+#
+DEF ~IND_NFC_CONN L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "IND_NFC_CONN" 30 -40 50 H I L CNN
+F2 "SwedishEmbedded:NFC_COIL" -70 -60 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -50 0 20 0 0 0 "Wireless Power Rx" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# JP_Jumper_Small
+#
+DEF JP_Jumper_Small JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "JP_Jumper_Small" 10 -60 50 H V C CNN
+F2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1" 0 0 50 H V C CNN "Valid"
+DRAW
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+X 1 1 -100 0 40 R 50 50 0 1 P
+X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # LB_220R_2A_0603
 #
 DEF ~LB_220R_2A_0603 FB 0 10 N N 1 F N
@@ -4919,19 +5488,44 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# LB_470R_500mA_0603
+#
+DEF ~LB_470R_500mA_0603 FB 0 10 N N 1 F N
+F0 "FB" 30 20 50 H V L CNN
+F1 "LB_470R_500mA_0603" 30 -40 50 H I L CNN
+F2 "SwedishEmbedded:L_0603_1608Metric" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" 30 20 50 H I C CNN
+F4 "BLM18AG471SN1D" 0 -300 50 H I C CNN "MPN"
+F5 "33837 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Ferrite Beads 0603 470 OHM" 0 0 50 H I C CNN "Description"
+F7 "0.117  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 -50 0 20 0 0 0 "470R 500mA" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+P 2 0 1 0 0 50 0 -50 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # LED_GREEN_0603
 #
 DEF ~LED_GREEN_0603 D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "LED_GREEN_0603" -300 -100 50 H I L CNN
-F2 "SwedishEmbedded:LED_0603_1608Metric" -100 200 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/216/APTD1608LZGCK-535846.pdf" 0 0 50 H I C CNN
-F4 "APTD1608LZGCK" 0 -200 50 H I C CNN "MPN"
-F5 "24545 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Standard LEDs - SMD 1.6X0.8MM DOME LENS LOW CURRENT SMD" 0 0 50 H I C CNN "Description"
-F7 "Mouser" 0 0 50 H I C CNN "Vendor"
-F8 "0.567  EUR" 0 0 50 H I C CNN "Price"
-F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+F1 "LED_GREEN_0603" -300 -250 50 H I L CNN
+F2 "SwedishEmbedded:LED_0603_1608Metric" -50 500 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/216/APTD1608LZGCK-535846.pdf" 50 300 50 H I C CNN
+F4 "APTD1608LZGCK" 0 -350 50 H I C CNN "MPN"
+F5 "24545 In Stock" 50 -200 50 H I C CNN "Availability"
+F6 "Standard LEDs - SMD 1.6X0.8MM DOME LENS LOW CURRENT SMD" 50 300 50 H I C CNN "Description"
+F7 "Mouser" 0 -200 50 H I C CNN "Vendor"
+F8 "0.567  EUR" 50 -250 50 H I C CNN "Price"
+F9 "OK" 0 -250 50 H I C CNN "LifeCycle"
 $FPLIST
  CP*
  SM*
@@ -4995,6 +5589,62 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 0 100 50 20 0 0 0 RED Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 40 40 1 1 P
+X A 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_WHITE_2200K
+#
+DEF ~LED_WHITE_2200K D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "LED_WHITE_2200K" -300 -250 50 H I L CNN
+F2 "SwedishEmbedded:LED_SMD-2" -50 500 50 H I C CNN
+F3 "" 50 300 50 H I C CNN
+F4 "GW JTLPS1.EM-JLJN-XX510-1 " 0 -350 50 H I C CNN "MPN"
+F5 "Mouser" 0 -200 50 H I C CNN "Vendor"
+F6 "0.432  EUR" 50 -250 50 H I C CNN "Price"
+F7 "OK" 0 -250 50 H I C CNN "LifeCycle"
+F8 "4976 In Stock" 0 0 50 H I C CNN "Availability"
+F9 "High Power LEDs - White White 2200K CRI 80 DURIS E 2835" 0 0 50 H I C CNN "Description"
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+T 0 100 50 20 0 0 0 2200K Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 40 40 1 1 P
+X A 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_WHITE_2835_2700K
+#
+DEF ~LED_WHITE_2835_2700K D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "LED_WHITE_2835_2700K" -300 -250 50 H I L CNN
+F2 "SwedishEmbedded:LED_J-2835" -50 500 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/90/data-sheet-JSeries-2835-1224341.pdf" 50 300 50 H I C CNN
+F4 "JE2835AWT-00-0000-000A0UF827E" 0 -350 50 H I C CNN "MPN"
+F5 "High Power LEDs - White White, 54lm 3V, 90CRI" 50 300 50 H I C CNN "Description"
+F6 "Mouser" 0 -200 50 H I C CNN "Vendor"
+F7 "0.09  EUR" 50 -250 50 H I C CNN "Price"
+F8 "New Product" 0 -250 50 H I C CNN "LifeCycle"
+F9 "11891 In Stock" 0 0 50 H I C CNN "Availability"
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+T 0 100 50 20 0 0 0 2700K Normal 0 C C
 P 2 0 1 0 -30 -40 -30 40 N
 P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
 P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
@@ -5156,11 +5806,121 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MOUNT_HOLE
+# L_CM_CHOKE_1A
 #
-DEF ~MOUNT_HOLE MT? 0 40 Y Y 1 F N
+DEF ~L_CM_CHOKE_1A L 0 10 N N 1 F N
+F0 "L" 70 0 50 H V L CNN
+F1 "L_CM_CHOKE_1A" -350 650 50 H I L CNN
+F2 "SwedishEmbedded:L_CM_Kemet_1A" 0 750 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+F4 "M-521CT" 0 1150 50 H I C CNN "MPN"
+F5 "875 In Stock" 0 850 50 H I C CNN "Availability"
+F6 "Common Mode Chokes / Filters 1A 100mOhms" 50 950 50 H I C CNN "Description"
+F7 "2.61  EUR" 0 550 50 H I C CNN "Price"
+F8 "New Product" 0 1050 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A -50 -60 20 -899 899 0 1 0 N -50 -80 -50 -40
+A -50 -20 20 -899 899 0 1 0 N -50 -40 -50 0
+A -50 20 20 -899 899 0 1 0 N -50 0 -50 40
+A -50 60 20 -899 899 0 1 0 N -50 40 -50 80
+A 50 -60 20 901 -901 0 1 0 N 50 -40 50 -80
+A 50 -20 20 901 -901 0 1 0 N 50 0 50 -40
+A 50 20 20 901 -901 0 1 0 N 50 40 50 0
+A 50 60 20 901 -901 0 1 0 N 50 80 50 40
+C -10 110 3 0 1 0 N
+C 9 110 3 0 1 0 N
+T 900 -80 0 20 0 0 0 "1A CM" Normal 0 C C
+P 2 0 1 0 -10 90 -10 -90 N
+P 2 0 1 0 10 -90 10 90 N
+X ~ 1 -50 100 20 D 50 50 1 1 P
+X ~ 2 -50 -100 20 U 50 50 1 1 P
+X ~ 3 50 -100 20 U 50 50 1 1 P
+X ~ 4 50 100 20 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_CM_CHOKE_200mA
+#
+DEF ~L_CM_CHOKE_200mA L 0 10 N N 1 F N
+F0 "L" 70 0 50 H V L CNN
+F1 "L_CM_CHOKE_200mA" -350 650 50 H I L CNN
+F2 "SwedishEmbedded:L_CM_Wurth_200mA" 0 750 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+F4 "744232222" 0 1150 50 H I C CNN "MPN"
+F5 "15034 In Stock" 0 850 50 H I C CNN "Availability"
+F6 "Common Mode Chokes / Filters WE-CNSW LnFltr1206 2200Ohm 100MHz 200mA" 50 950 50 H I C CNN "Description"
+F7 "1.12  EUR" 0 550 50 H I C CNN "Price"
+F8 "OK" 0 1050 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+F10 "1" 0 0 50 H V C CNN "Valid"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A -50 -60 20 -899 899 0 1 0 N -50 -80 -50 -40
+A -50 -20 20 -899 899 0 1 0 N -50 -40 -50 0
+A -50 20 20 -899 899 0 1 0 N -50 0 -50 40
+A -50 60 20 -899 899 0 1 0 N -50 40 -50 80
+A 50 -60 20 901 -901 0 1 0 N 50 -40 50 -80
+A 50 -20 20 901 -901 0 1 0 N 50 0 50 -40
+A 50 20 20 901 -901 0 1 0 N 50 40 50 0
+A 50 60 20 901 -901 0 1 0 N 50 80 50 40
+C -10 110 3 0 1 0 N
+C 9 110 3 0 1 0 N
+T 900 -80 0 20 0 0 0 "200mA CM" Normal 0 C C
+P 2 0 1 0 -10 90 -10 -90 N
+P 2 0 1 0 10 -90 10 90 N
+X ~ 1 -50 100 20 D 50 50 1 1 P
+X ~ 2 -50 -100 20 U 50 50 1 1 P
+X ~ 3 50 -100 20 U 50 50 1 1 P
+X ~ 4 50 100 20 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MOUNT_HOLE_M1
+#
+DEF ~MOUNT_HOLE_M1 MT? 0 40 Y Y 1 F N
 F0 "MT?" 0 200 50 H I C CNN
-F1 "MOUNT_HOLE" 0 -200 50 H I C CNN
+F1 "MOUNT_HOLE_M1" 0 -200 50 H I C CNN
+F2 "SwedishEmbedded:MountingHole_1.1mm_M1_Pad" -100 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "#" 0 0 50 H I C CNN "MPN"
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 71 0 1 0 N
+X ~ 1 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MOUNT_HOLE_M1_MECH
+#
+DEF ~MOUNT_HOLE_M1_MECH MT? 0 40 Y Y 1 F N
+F0 "MT?" 0 200 50 H I C CNN
+F1 "MOUNT_HOLE_M1_MECH" 0 -200 50 H I C CNN
+F2 "SwedishEmbedded:MountingHole_1.1mm_M1_MECH" -100 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "#" 0 0 50 H I C CNN "MPN"
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 71 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# MOUNT_HOLE_M3
+#
+DEF ~MOUNT_HOLE_M3 MT? 0 40 Y Y 1 F N
+F0 "MT?" 0 200 50 H I C CNN
+F1 "MOUNT_HOLE_M3" 0 -200 50 H I C CNN
 F2 "SwedishEmbedded:MountingHole_3.2mm_M3_Pad" -100 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "#" 0 0 50 H I C CNN "MPN"
@@ -5168,6 +5928,20 @@ DRAW
 C 0 0 50 0 1 0 N
 C 0 0 71 0 1 0 N
 X ~ 1 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MOUNT_HOLE_M3_MECH
+#
+DEF ~MOUNT_HOLE_M3_MECH MT? 0 40 Y Y 1 F N
+F0 "MT?" 0 200 50 H I C CNN
+F1 "MOUNT_HOLE_M3_MECH" 0 -200 50 H I C CNN
+F2 "SwedishEmbedded:MountingHole_3.2mm_M3_MECH" -100 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "#" 0 0 50 H I C CNN "MPN"
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 71 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -5182,6 +5956,29 @@ F4 "PT-LH006P" 0 0 50 H I C CNN "MPN"
 DRAW
 S -300 100 300 -100 0 1 0 N
 S -200 100 200 200 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# NCP115
+#
+DEF NCP115 U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "NCP115" 0 350 50 H V C CNN
+F2 "SwedishEmbedded:TSOP-5_1.65x3.05mm_P0.95mm" 0 50 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/308/NCP115-D-1494157.pdf" 0 50 50 H I C CNN
+F4 "NCP115ASN330T2G" 50 -250 50 H I C CNN "MPN"
+F5 "12317 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "LDO Voltage Regulators 300 MA CMOS LOW DRO POUT R" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.27  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -200 200 200 -200 0 1 0 N
+X IN 1 -300 100 100 R 50 50 0 0 W
+X GND 2 -300 -100 100 R 50 50 0 0 P
+X EN 3 -300 0 100 R 50 50 0 0 I
+X N/C 4 300 -100 100 L 50 50 0 0 N
+X OUT 5 300 100 100 L 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
@@ -5239,6 +6036,42 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# Q_NMOS_2N7002
+#
+DEF ~Q_NMOS_2N7002 Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_NMOS_2N7002" 150 550 50 H I L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 150 700 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/308/2N7002-1305074.pdf" -50 600 50 H I C CNN
+F4 "2N7002" 50 -450 50 H I C CNN "MPN"
+F5 "MOSFET N-CHANNEL 60V 115mA" -50 600 50 H I C CNN "Description"
+F6 "Mouser" 0 600 50 H I C CNN "Vendor"
+F7 "https://www.mouser.com/datasheet/2/308/FDN86246-1300565.pdf" -50 600 50 H I C CNN "Datasheet"
+F8 "0.288  EUR" 150 750 50 H I C CNN "Price"
+F9 "OK" 100 650 50 H I C CNN "LifeCycle"
+F10 "658032 In Stock" 0 0 50 H I C CNN "Availability"
+DRAW
+C 65 0 111 0 1 10 N
+T 0 30 140 20 0 0 0 2N7002 Normal 0 C C
+T 0 180 -100 20 0 0 0 60V Normal 0 C C
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+X G 1 -200 0 200 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -5453,16 +6286,16 @@ ENDDEF
 #
 DEF ~Q_NMOS_FDN86246 Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_NMOS_FDN86246" 200 -50 50 H I L CNN
-F2 "SwedishEmbedded:SuperSOT-3" 200 100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/308/FDN86246-1300565.pdf" 0 0 50 H I C CNN
+F1 "Q_NMOS_FDN86246" 150 550 50 H I L CNN
+F2 "SwedishEmbedded:SuperSOT-3" 150 700 50 H I C CNN
+F3 "" -50 600 50 H I C CNN
 F4 "FDN86246" 50 -450 50 H I C CNN "MPN"
-F5 "8941 On Order" 0 0 50 H I C CNN "Availability"
-F6 "MOSFET 150V N-Channel PowerTrench MOSFET" 0 0 50 H I C CNN "Description"
-F7 "Mouser" 0 0 50 H I C CNN "Vendor"
-F8 "https://www.mouser.com/datasheet/2/308/FDN86246-1300565.pdf" 0 0 50 H I C CNN "Datasheet"
-F9 "0.751  EUR" 0 0 50 H I C CNN "Price"
-F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+F5 "8941 On Order" 200 600 50 H I C CNN "Availability"
+F6 "MOSFET 150V N-Channel PowerTrench MOSFET" -50 600 50 H I C CNN "Description"
+F7 "Mouser" 0 600 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/308/FDN86246-1300565.pdf" -50 600 50 H I C CNN "Datasheet"
+F9 "0.751  EUR" 150 750 50 H I C CNN "Price"
+F10 "OK" 100 650 50 H I C CNN "LifeCycle"
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -5487,6 +6320,43 @@ P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
 X G 1 -200 0 200 R 50 50 1 1 I
 X S 2 100 -200 100 U 50 50 1 1 P
 X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_PMOS_TP0610T
+#
+DEF ~Q_PMOS_TP0610T Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_PMOS_TP0610T" 150 550 50 H I L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 150 700 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/268/TP0610T-P-Channel-Enhancement-Mode-Vertical-DMOS-F-965085.pdf" -50 600 50 H I C CNN
+F4 "TP0610T-G" 50 -450 50 H I C CNN "MPN"
+F5 "https://www.mouser.com/datasheet/2/308/FDN86246-1300565.pdf" -50 600 50 H I C CNN "Datasheet"
+F6 "0.63  EUR" 150 750 50 H I C CNN "Price"
+F7 "OK" 100 650 50 H I C CNN "LifeCycle"
+F8 "5949 In Stock" 0 0 50 H I C CNN "Availability"
+F9 "MOSFET -60V 100hm" 0 0 50 H I C CNN "Description"
+F10 "Mouser" 0 0 50 H I C CNN "Vendor"
+DRAW
+C 65 0 111 0 1 10 N
+T 0 190 -110 20 0 0 0 -60V Normal 0 C C
+T 0 -40 130 20 0 0 0 TP0610T Normal 0 C C
+P 2 0 1 0 0 0 -50 0 N
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 100 0 60 -15 60 15 100 0 F
+X G 1 -150 0 100 R 50 50 1 1 I
+X D 2 100 200 100 D 50 50 1 1 P
+X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -5645,10 +6515,35 @@ ENDDEF
 #
 DEF ~RES_10K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_10K_1%_0402" 30 -40 50 H I L CNN
+F1 "RES_10K_1%_0402" 20 -330 50 H I L CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -80 -370 50 H I C CNN
+F3 "" 30 20 50 H I C CNN
+F4 "RC0402FR-0710KL" 120 -170 50 H I C CNN "MPN"
+F5 "25734340 In Stock" -10 -290 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 10K OHM 1%" -10 -290 50 H I C CNN "Description"
+F7 "OK" 20 -250 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" -10 -290 50 H I C CNN "Price"
+F9 "Mouser" -10 -290 50 H I C CNN "Vendor"
+F10 "1" 0 0 50 H I C CNN "Valid"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "10K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_10R_1%_0402
+#
+DEF ~RES_10R_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_10R_1%_0402" 30 -40 50 H I L CNN
 F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" 30 20 50 H I C CNN
-F4 "RC0402FR-0710KL" 130 120 50 H I C CNN "MPN"
+F3 "" 30 20 50 H I C CNN
+F4 "RC0402FR-0710RL" 130 120 50 H I C CNN "MPN"
 F5 "25734340 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 10K OHM 1%" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
@@ -5658,7 +6553,7 @@ $FPLIST
  R_*
 $ENDFPLIST
 DRAW
-T 900 0 0 20 0 0 0 "10K 1%" Normal 0 C C
+T 900 0 0 20 0 0 0 "10R 1%" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
@@ -5732,6 +6627,32 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 900 0 0 20 0 0 0 "12.1k 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_120R_1%_0402
+#
+DEF ~RES_120R_1%_0402 R 0 10 N N 1 F N
+F0 "R" 40 570 50 H V L CNN
+F1 "RES_120R_1%_0402" 40 510 50 H I L CNN
+F2 "Resistor_SMD:R_0402_1005Metric" -60 470 50 H I C CNN
+F3 "" 40 570 50 H I C CNN
+F4 "RC0402FR-13120RL" 140 670 50 H I C CNN "MPN"
+F5 "22886 In Stock" 10 550 50 H I C CNN "Availability"
+F6 "Current Sense Resistors - SMD CHIP RESISTOR Low Value" 10 550 50 H I C CNN "Description"
+F7 "Mouser" 10 550 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/54/CRM0805_1206_2010-1110565.pdf" 10 550 50 H I C CNN "Datasheet"
+F9 "0.14  EUR" 10 550 50 H I C CNN "Price"
+F10 "OK" -10 410 50 H I C CNN "LifeCycle"
+F11 "1" 0 0 50 H I C CNN "Valid"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "120R 1%" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
@@ -6495,6 +7416,35 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RES_NTC_10K_WIRE
+#
+DEF ~RES_NTC_10K_WIRE R 0 0 N Y 1 F N
+F0 "R" -100 0 50 V V C CNN
+F1 "RES_NTC_10K_WIRE" 125 -250 50 V I C CNN
+F2 "SwedishEmbedded:R_NTC_WIRE" 0 -220 50 H I C CNN
+F3 "" 0 -220 50 H I C CNN
+F4 "NTCG103JF103FT1" 0 -270 39 H I C CNN "MPN"
+F5 "199483 In Stock" 0 -250 50 H I C CNN "Availability"
+F6 "NTC (Negative Temperature Coefficient) Thermistors THERMISTOR, NTC 10K OHM, 1%, 0402" 0 -250 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 -250 50 H I C CNN "Vendor"
+F9 "0.087  EUR" 0 -250 50 H I C CNN "Price"
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+$ENDFPLIST
+DRAW
+T 900 50 0 20 0 0 0 10k Normal 0 C C
+P 4 0 1 0 -50 70 -50 50 50 -50 50 -70 N
+P 5 0 1 0 -30 70 30 70 30 -70 -30 -70 -30 70 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SHIELD_16.5x16.5
 #
 DEF ~SHIELD_16.5x16.5 S 0 40 Y Y 1 F N
@@ -6547,16 +7497,18 @@ F5 "13394 In Stock" 0 -50 50 H I C CNN "Availability"
 F6 "Tactile Switches 160 GF Top Actuated Ultra Low Profile" -100 -50 50 H I C CNN "Description"
 F7 "0.166  EUR" 0 -50 50 H I C CNN "Price"
 F8 "OK" 0 -50 50 H I C CNN "LifeCycle"
-F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "Mouser" 0 -150 50 H I C CNN "Vendor"
 DRAW
-S -100 100 100 -100 0 1 0 N
-P 2 0 1 0 -80 0 -100 0 N
-P 2 0 1 0 -10 50 10 50 N
-P 2 0 1 0 -10 60 10 60 N
-P 2 0 1 0 0 20 0 50 N
-P 2 0 1 0 0 60 0 50 N
-P 2 0 1 0 30 0 100 0 N
-P 3 0 1 0 -80 0 -30 0 20 30 N
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -75 0 -100 0 N
+P 2 0 1 0 -60 40 60 40 N
+P 2 0 1 0 -55 40 50 40 N
+P 2 0 1 0 75 0 90 0 N
+P 2 0 1 0 90 0 100 0 N
+P 2 0 1 0 95 0 100 0 N
+P 4 0 1 0 -60 40 -60 30 60 30 60 40 N
+P 4 0 1 0 -10 40 -10 50 10 50 10 40 N
 X A1 1 -200 0 100 R 50 50 1 1 P
 X B1 2 -200 0 100 R 50 50 1 1 P N
 X B2 3 200 0 100 L 50 50 1 1 P
@@ -6651,6 +7603,7 @@ F0 "TP" 0 270 50 H V C CNN
 F1 "Test_Point" 0 200 50 H I C CNN
 F2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
+F4 "#" 0 0 50 H I C CNN "MPN"
 $FPLIST
  Pin*
  Test*
@@ -6699,6 +7652,27 @@ X D+ 3 300 0 100 L 50 50 1 1 P
 X ID 4 300 -200 100 L 50 50 1 1 P
 X GND 5 0 -400 100 U 50 50 1 1 P
 X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Wire_Pad
+#
+DEF ~Wire_Pad P 0 30 N N 1 F N
+F0 "P" 0 100 50 H V C CNN
+F1 "Wire_Pad" 0 -250 50 H I C CNN
+F2 "SwedishEmbedded:Wire_Pad_2.7_0.75mm" 50 -300 50 H I C CNN
+F3 "" 200 -150 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 -20 -10 20 -30 N
+P 2 0 0 0 -20 10 20 -10 N
+P 2 0 0 0 -20 30 20 10 N
+P 2 0 0 0 -20 50 20 30 N
+P 6 0 0 0 0 -50 -30 -50 -30 60 30 60 30 -50 0 -50 N
+X 1 1 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -6788,6 +7762,35 @@ X 4 4 -200 50 50 R 40 40 1 1 N
 ENDDRAW
 ENDDEF
 #
+# XTAL_32.768_3215
+#
+DEF ~XTAL_32.768_3215 Y 0 40 Y N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "XTAL_32.768_3215" 0 -200 50 H I C CNN
+F2 "SwedishEmbedded:Crystal_ABM3B_5032-4Pin_5.0x3.2mm" 150 -540 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/137/C-255_en-1649561.pdf" 0 -790 50 H I C CNN
+F4 "732-FC135-32.76KAA3" 0 -300 50 H I C CNN "MPN"
+F5 "147771 In Stock" -80 -310 50 H I C CNN "Availability"
+F6 "Crystals 32.768KHz 20ppm 12.5pF -40C -85C" 0 -790 50 H I C CNN "Description"
+F7 "0.351  EUR" 30 -300 50 H I C CNN "Price"
+F8 "OK" 0 -300 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ Crystal_
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 32.768 Normal 0 C C
+S -150 100 150 -100 0 1 0 N
+S -30 -60 30 60 0 1 0 N
+P 2 0 0 0 -50 0 -150 0 N
+P 2 0 0 0 50 0 150 0 N
+P 2 0 1 0 -50 -30 -50 30 N
+P 2 0 1 0 50 -30 50 30 N
+X 1 1 -200 0 50 R 40 40 1 1 P
+X 2 2 200 0 50 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # XTAL_8Mhz_5032
 #
 DEF ~XTAL_8Mhz_5032 Y 0 40 Y N 1 F N
@@ -6843,6 +7846,45 @@ P 6 0 1 0 -30 -50 -30 -150 30 -150 30 -60 30 -50 -30 -50 N
 X OSC1 1 -100 350 100 D 50 50 1 1 P
 X GND 2 0 350 100 D 50 50 1 1 P
 X OSC2 3 100 350 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# bq5105xB
+#
+DEF bq5105xB U 0 40 Y Y 1 F N
+F0 "U" 0 1000 50 H V C CNN
+F1 "bq5105xB" 0 1100 50 H V C CNN
+F2 "SwedishEmbedded:VQFN-20" 250 100 50 H I C CNN
+F3 "" 250 100 50 H I C CNN
+F4 "BQ51051BRHLR" 0 0 50 H I C CNN "MPN"
+F5 "1398 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Wireless Charging ICs Intg Wireless PWR" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "3.36  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -500 950 450 -950 0 1 0 N
+X PGND 1 50 -1050 100 U 50 50 0 0 P
+X TERM 10 550 -250 100 L 50 50 0 0 I
+X EN2 11 550 0 100 L 50 50 0 0 I
+X ILIM 12 550 -550 100 L 50 50 0 0 B
+X TS/CTRL 13 550 450 100 L 50 50 0 0 I
+X FOD 14 550 -850 100 L 50 50 0 0 I
+X COMM2 15 -600 -450 100 R 50 50 0 0 O
+X CLAMP2 16 -600 -650 100 R 50 50 0 0 O
+X BOOT2 17 -600 -250 100 R 50 50 0 0 O
+X RECT 18 550 650 100 L 50 50 0 0 O
+X AC2 19 -600 -50 100 R 50 50 0 0 I
+X AC1 2 -600 250 100 R 50 50 0 0 I
+X PGND 20 150 -1050 100 U 50 50 0 0 P
+X PAD 21 -50 -1050 100 U 50 50 0 0 P
+X BOOT1 3 -600 450 100 R 50 50 0 0 O
+X BAT 4 550 850 100 L 50 50 0 0 O
+X CLAMP1 5 -600 -850 100 R 50 50 0 0 O
+X COMM1 6 -600 650 100 R 50 50 0 0 O
+X ~CHG 7 550 100 100 L 50 50 0 0 O
+X ~AD-EN 8 -600 850 100 R 50 50 0 0 O
+X AD 9 -600 750 100 R 50 50 0 0 I
 ENDDRAW
 ENDDEF
 #
