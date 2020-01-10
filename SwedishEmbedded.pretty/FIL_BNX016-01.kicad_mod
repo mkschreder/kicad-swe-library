@@ -1,4 +1,4 @@
-(module FIL_BNX016-01 (layer F.Cu) (tedit 5E1339BB)
+(module FIL_BNX016-01 (layer F.Cu) (tedit 5E1402CD)
   (fp_text reference REF** (at -2.825 -7.635) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.015)))
   )
@@ -26,4 +26,9 @@
   (pad 4 thru_hole circle (at 2.5 2.5) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 0 -5) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask))
+  (model /data/work/kicad-swe-library/SwedishEmbedded.3dshapes/BNX016.stp
+    (offset (xyz 5.5 -6 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
