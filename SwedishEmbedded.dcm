@@ -6,6 +6,28 @@ K battery cell
 F ~
 $ENDCMP
 #
+$CMP CONN_3X_LED_DRIVE_FEMALE
+D Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP CONN_3X_LED_DRIVE_MALE
+K connector
+F ~
+$ENDCMP
+#
+$CMP CONN_3X_LED_SENSE_FEMALE
+D Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP CONN_3X_LED_SENSE_MALE
+K connector
+F ~
+$ENDCMP
+#
 $CMP CONN_BAT_LI_ION
 D Battery (multiple cells)
 K batt voltage-source cell
