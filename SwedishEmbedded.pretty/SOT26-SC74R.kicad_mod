@@ -1,4 +1,4 @@
-(module SOT26-SC74R (layer F.Cu) (tedit 5D7BA137)
+(module SOT26-SC74R (layer F.Cu) (tedit 5E33F9F4)
   (solder_mask_margin 0.05)
   (attr smd)
   (fp_text reference REF** (at -2.7 0) (layer F.SilkS)
@@ -26,7 +26,7 @@
   (pad 6 smd roundrect (at -0.95 -1.2) (size 0.55 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 5 smd roundrect (at 0 -1.2) (size 0.55 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at 0.95 -1.2) (size 0.55 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model /data/hardware/kicad-swe-library/SwedishEmbedded.3dshapes/SOT26.step
+  (model ${SWELIB}/SwedishEmbedded.3dshapes/SOT26.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

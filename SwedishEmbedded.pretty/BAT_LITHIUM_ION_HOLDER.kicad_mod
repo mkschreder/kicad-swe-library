@@ -1,4 +1,4 @@
-(module BAT_LITHIUM_ION_HOLDER (layer F.Cu) (tedit 5D7B6DDD)
+(module BAT_LITHIUM_ION_HOLDER (layer F.Cu) (tedit 5E33F3D7)
   (fp_text reference REF** (at 0 5.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -42,7 +42,7 @@
   (pad "" np_thru_hole circle (at -17.45 10.3) (size 4.3 4.3) (drill 3.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 17.55 65.5) (size 4.3 4.3) (drill 3.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -17.45 74) (size 3 3) (drill 2.4) (layers *.Cu *.Mask))
-  (model /data/hardware/kicad-swe-library/SwedishEmbedded.3dshapes/BAT_HOLDER_2X.step
+  (model ${SWELIB}/SwedishEmbedded.3dshapes/BAT_HOLDER_2X.step
     (offset (xyz 0 0.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

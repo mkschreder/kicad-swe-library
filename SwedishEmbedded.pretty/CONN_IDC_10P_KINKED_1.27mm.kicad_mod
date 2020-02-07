@@ -1,4 +1,4 @@
-(module CONN_IDC_10P_KINKED_1.27mm (layer F.Cu) (tedit 5D7CA04E)
+(module CONN_IDC_10P_KINKED_1.27mm (layer F.Cu) (tedit 5E33F9C3)
   (fp_text reference REF** (at 2.54 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -24,7 +24,7 @@
   (pad 3 thru_hole circle (at 6.35 -1.27) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 7.62 1.27) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 8.89 -1.27) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
-  (model /data/hardware/kicad-swe-library/SwedishEmbedded.3dshapes/10P_KinkedPin_IDC.step
+  (model ${SWELIB}/SwedishEmbedded.3dshapes/10P_KinkedPin_IDC.step
     (offset (xyz 3.1 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

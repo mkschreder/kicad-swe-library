@@ -1,4 +1,4 @@
-(module VQFN-20 (layer F.Cu) (tedit 5D7B9B1D)
+(module VQFN-20 (layer F.Cu) (tedit 5E33F9D7)
   (fp_text reference REF** (at 0.5 -4.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -117,7 +117,7 @@
     (solder_mask_margin 0.07))
   (pad 2 smd roundrect (at -1.65 -1.75) (size 0.6 0.24) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
     (solder_mask_margin 0.07))
-  (model /data/hardware/kicad-swe-library/SwedishEmbedded.3dshapes/VQFN-20.step
+  (model ${SWELIB}/SwedishEmbedded.3dshapes/VQFN-20.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

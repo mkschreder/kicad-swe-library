@@ -1,4 +1,4 @@
-(module L_Bourns_SRP1770 (layer F.Cu) (tedit 5E17FAEE)
+(module L_Bourns_SRP1770 (layer F.Cu) (tedit 5E33F490)
   (descr "Bourns SRR1260 series SMD inductor http://www.bourns.com/docs/Product-Datasheets/SRR1260.pdf")
   (tags "Bourns SRR1260 SMD inductor")
   (attr smd)
@@ -30,7 +30,7 @@
   (fp_line (start -10 -9.4) (end -9.8 -9.4) (layer F.CrtYd) (width 0.12))
   (pad 1 smd rect (at -7.5 -0.25) (size 3.75 12.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 7.5 0) (size 3.75 12.5) (layers F.Cu F.Paste F.Mask))
-  (model /data/work/kicad-swe-library/SwedishEmbedded.3dshapes/SRP1770C.stp
+  (model ${SWELIB}/SwedishEmbedded.3dshapes/SRP1770C.stp
     (offset (xyz 0 0 5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 90))

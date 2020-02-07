@@ -1,4 +1,4 @@
-(module BM02B-GHS-TBT (layer F.Cu) (tedit 5DB4641D)
+(module BM02B-GHS-TBT (layer F.Cu) (tedit 5E33F3EC)
   (fp_text reference REF** (at 0 -4.55) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -22,7 +22,7 @@
     (solder_mask_margin 0.1))
   (pad "" smd rect (at 2.5 0.65 90) (size 2.8 1) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.1))
-  (model /data/hardware/kicad-swe-library/SwedishEmbedded.3dshapes/BM02B-GHS-TBT.STEP
+  (model ${SWELIB}/SwedishEmbedded.3dshapes/BM02B-GHS-TBT.STEP
     (offset (xyz -2.85 -1.5 0.15))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
